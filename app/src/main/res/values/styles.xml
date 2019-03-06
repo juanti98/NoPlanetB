@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAzul</item>
+        <item name="colorPrimaryDark">@color/colorAzul</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SignInButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorAzul</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/colorAzul</item>
+        <item name="android:textSize">20sp</item>
+
+        <item name="colorAccent">@color/colorRojo</item>
+        <item name="colorControlNormal">@color/colorAzul</item>
+        <item name="colorControlActivated">@color/colorAzulClaro</item>
+    </style>
+
+    <style name="rightButton">
+        <item name="android:background">@color/colorAzul</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="leftButton">
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:textColor">@color/colorAzul</item>
+    </style>
+</resources>
